@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>Technical CV</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+  <header>
+  <h1>WELCOME TO MY ONLINE TECHNICAL CV</h1>
+  <nav>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="txt=API INTEGRATIONS">API's</a></li>
+      <li><a href="">Downloadable CV</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <section class="home-about">
+    <h2>ABOUT ME</h2>
+    <img src=https://github.com/SUP3Rpanzy/sup3rpanzy.github.io/blob/master/CV%20Profile.jpg?raw=true" alt="Profile" width="200" height="200">
+    <div class="home-about-textbox">
+    <p>
+      Hi, my name is Ruan and I created this website using technologies 
+      such as Angular and Javascript.
+      I have developed some skills on programming languages like Python,
+      C++, C# and Java.
+      I am learning these newer technologies to develop myself and 
+      showcase my technical proficiency.
+
+    </p>
+    </div>
+  </section>
+
+  <section class="api">
+    <h2>API INTEGRATIONS</h2>
+    <div class="home-about-textbox">
+      <p>This is a Pokemon API that shows the pokemon's name, height and weight.</p>
+    </div>
+    <div class="pokemon"></div>
+    <div class="weather-container">
+      <img class="icon">
+      <p class="weather"></p>
+      <p class="temp"></p>
+    </div>
+    <script src="main.js"></script>
+    <script src="weather.js"></script>
+  </section>
+  
+  <section class="home-cv">
+    <h2>HERE YOU CAN DOWNLOAD MY CV</h2>
+    <a href="https://github.com/SUP3Rpanzy/sup3rpanzy.github.io/raw/master/CV.pdf" class="button-accent">Download PDF</a>
+  </section>
+
+  <section class="home-contact">
+    <h2>CONTACT ME</h2>
+    <div class="container color-dark">
+      <div class="col">
+        <p>Your Name:</p>
+        <form>
+          <input type="text" class="txt" name="item" place="Name">
+        </form>
+      </div>
+      <div class="col">
+        <p>Message:</p>
+        <form>
+        <input type="text" class="longtxt" name="item" place="Message">
+        </form>
+      </div>
+    </div>
+    <form>
+      <input type="submit" class="button-accent" >
+    </form>
+  </section>
+
+  <footer>
+    <p>
+
+    </p>
+  </footer>
+</body>
+</html>
