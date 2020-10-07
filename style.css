@@ -152,16 +152,16 @@ nav a:focus {
 input.txt{
     border-style: solid;
     border-color: cyan;
-    padding: .5em;
+    padding: .25em;
     margin-top: 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 input.longtxt{
     border-style: solid;
     border-color: cyan;
-    padding: .5em;
+    padding: .25em;
     margin-top: 0;
-    font-size: 20px;
+    font-size: 16px;
 
 }
