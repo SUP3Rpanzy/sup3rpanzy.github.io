@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    color: White;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: Cyan;
+    text-align: center;
+}
+
+h2{
+    color:cyan;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    border-style: solid;
+    border-color: cyan;
+}
+
+/*header
+===============*/
+
+header{
+    /*position: absolute;*/
+    margin-top: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display:inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+    background: rgb(36, 36, 36);
+    color: White;
+}
+
+nav a:hover,
+nav a:focus {
+    color:Cyan;
+}
+
+
+/*home-about
+===============*/
+
+.home-about{
+    border-style: solid;
+    border-color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+}
+
+.home-about-textbox{
+    width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+/*api
+===============*/
+
+.api{
+    border-style: solid;
+    border-color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+}
+
+/*home-cv
+===============*/
+
+.home-cv{
+    border-style: solid;
+    border-color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+}
+
+.button-accent{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .7em;
+    background: rgb(36, 36, 36);
+    color: White;
+    border-style: solid;
+    border-color: cyan;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button-accent a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+    background: rgb(36, 36, 36);
+    color: White;
+    border-style: solid;
+    border-color: cyan;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    color:Cyan;
+    background: grey;
+}
+
+/*home-contact
+===============*/
+
+.home-contact{
+    border-style: solid;
+    border-color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+}
+
+input.txt{
+    border-style: solid;
+    border-color: cyan;
+    padding: .5em;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+input.longtxt{
+    border-style: solid;
+    border-color: cyan;
+    padding: .5em;
+    margin-top: 0;
+    font-size: 20px;
+
+}
