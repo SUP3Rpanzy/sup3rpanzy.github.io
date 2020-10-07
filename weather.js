@@ -8,5 +8,6 @@
 
         $(".icon").attr('src', icon),
         $(".weather").append(weather),
-        $(".temp").append(temp),*/
+        $(".temp").append(temp),
 });
+*/
